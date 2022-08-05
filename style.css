@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+
+p { 
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.right-btn>button {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.logo {
+    position: absolute;
+    left: 12%;
+}
+
+.main-div {
+    display: flex;
+    float: right;
+    justify-content: center;
+    text-align: left;
+    padding: 12px 0;
+}
+
+.download-email>input {
+    width: 450px;
+    height: 50px;
+    position: relative;
+    top: 25px;
+    z-index: 1;
+}
+
+.download-email>button {
+    width: 100px;
+    height: 40px;
+    z-index: 2;
+    position: relative;
+    right: 110px;
+    top: 25px;
+}
+
+.top-pic {
+    position: absolute;
+    bottom: 22%;
+    left: 12%;
+}
+
+body>header {
+    background-color: rgb(83, 81, 81);
+    height: 600px;
+    color: #ffffff;
+}
+
+.box>h1 {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+
+}
+
+.achivments {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+
+}
+
+.img-2 {
+    position: relative;
+    left: 12%;
+    padding-top: 40px;
+}
+
+.our-job {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.we-do {
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+a>button {
+    width: 110px;
+    height: 30px;
+    background-color: rgb(55, 182, 125);
+    color: #ffffff;
+    border-style: none;
+    margin-bottom: 30px;
+}
+
+.team {
+    padding-top: 50px;
+    justify-content: center;
+    text-align: left;
+    padding-left: 150px;
+}
+
+.talk-more {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 50px 12px;
+}
+
+.talk-about {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 12px;
+}
+
+.know-more {
+    text-align: center;
+}
+
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(83, 81, 81);
+}
+
+.list-item {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    gap: 100px;
+    color: #ffffff;
+}
+
+footer li {
+    list-style: none;
+    color: #ffffff;
+}
+
+.icons {
+    padding: 20px 110px 30px 120px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.logos-list {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.lists h5 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.list li {
+    font-size: 12px;
+}
